@@ -1,13 +1,16 @@
 /* common shared styles */
 * {
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 /* nav related styles */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -28,12 +31,16 @@ nav>ul {
 
 nav li {
     list-style: none;
-    margin-right: 50px;
 }
 
 nav a {
     text-decoration: none;
-    color: #474747
+    color: #474747;
+    margin-right: 50px;
+}
+
+nav button:hover {
+    background-color: #b85208;
 }
 
 .text-primary {
@@ -47,4 +54,20 @@ nav a {
     padding: 15px 35px;
     color: white;
     cursor: pointer;
+}
+
+/* header related styles */
+
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 500px;
 }
