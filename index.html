@@ -5,55 +5,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/50528f2296.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
 </head>
 
 <body>
-    <!-- header section -->
-    <header class="header">
+    <header>
         <nav>
-            <h3 class="nav-title">Ma<span class="primary-color">r</span>y</h3>
+            <h3>Ma<span>r</span>y</h3>
             <ul>
-                <li> <a href="">Portfolio</a> </li>
-                <li> <a href="">Blog</a> </li>
-                <li>
-                    <button class="btn-primary">Hire Me</button>
-                </li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><button class="btn-primary">Hire Me</button></li>
             </ul>
         </nav>
         <div class="banner">
-            <img class="rotated-img" src="./images/developer.png" alt="image comming soon">
-            <div class="banner-content">
-                <h3 class="banner-greeting">Hi, I'm</h3>
-                <h1 class="banner-title">Mary Hardy</h1>
-                <p class="banner-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, quae, cum ut non obcaecati error consectetur ullam tenetur natus placeat impedit aspernatur itaque reiciendis laborum magni odio culpa eos dolor!
+            <div class="banner-container">
+                <h3 class="banner-h3">Hi, I am</h3>
+                <h1 class="banner-h1">Mary Hardy</h1>
+                <p class="banner-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quas sit doloribus dolorem sed
+                    optio hic vitae, suscipit tenetur maiores amet quidem facere molestias atque perspiciatis dicta
+                    repellat voluptatem. Beatae!
                 </p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary">Contact</button>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="btn-secondary"><i class="fa-solid fa-phone"></i> Contact</button>
             </div>
-            <img class="profile-pic" src="./images/hardy.png" alt="image comming soon">
+            <img class="banner-img" src="./images/hardy.png" alt="Photo comming soon">
         </div>
     </header>
-    <!-- main section -->
-    <main>
-        <section class="about-section">
-            <h3 class="section-title">About Me</h3>
-            <p class="section-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolore, sit aut nam quam esse ducimus eum vel eligendi, fuga sequi tenetur iusto! Saepe, necessitatibus? Rerum, voluptas iure. Eveniet, qui?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam excepturi modi aliquid tenetur natus iste vero deleniti placeat, laudantium dolore. Fuga corporis reprehenderit perferendis natus molestiae laboriosam suscipit nisi nobis!
-            </p>
-        </section>
-    </main>
-    <!-- footer section -->
-    <footer>
 
-    </footer>
+    <main>
+        <!-- about section  -->
+        <section class="about-section">
+            <h2 class="about-heading">About Me</h2>
+            <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ea architecto eos
+                cum eaque quisquam quidem voluptatem beatae reiciendis quod ipsum odio tenetur corrupti, possimus autem
+                ab omnis! Provident, fugiat.</p>
+            <div class="about-info">
+                <div class="name">
+                    <h6>Name:</h6>
+                    <p>Mary Hardy</p>
+                </div>
+                <div class="email">
+                    <h6>Email:</h6>
+                    <p>info@gmail.com</p>
+                </div>
+                <div class="dob">
+                    <h6>Date of Birth:</h6>
+                    <p>11 Nov 1998</p>
+                </div>
+                <div class="email">
+                    <h6>From:</h6>
+                    <p>Los Angelos, New York</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I do -->
+        <section class="what-i-do">
+            <h2>What I Do</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis animi omnis ut, accusantium dolorum,
+                provident magni illo amet vitae odit, alias illum unde qui totam. Perferendis ab alias obcaecati
+                aliquid.</p>
+            <div class="skill-info">
+                <div class="skill-box">
+                    <img class="skill-logo" src="https://cdn.cdnlogo.com/logos/j/44/javascript.svg">
+                    <h2 class="skill-title">Vanilla JavaScript</h2>
+                    <p class="skill-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos autem
+                        esse a dolores ipsum ea cupiditate, adipisci et molestiae libero amet perspiciatis deleniti at
+                        quidem dolor ad excepturi eaque id!</p>
+                </div>
+                <div class="skill-box">
+                    <img class="skill-logo" src="https://cdn.cdnlogo.com/logos/r/21/react.svg">
+                    <h2 class="skill-title">React</h2>
+                    <p class="skill-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos autem
+                        esse a dolores ipsum ea cupiditate, adipisci et molestiae libero amet perspiciatis deleniti at
+                        quidem dolor ad excepturi eaque id!</p>
+                </div>
+                <div class="skill-box">
+                    <img class="skill-logo" src="https://cdn.cdnlogo.com/logos/n/94/nodejs-icon.svg">
+                    <h2 class="skill-title">NodeJS</h2>
+                    <p class="skill-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos autem
+                        esse a dolores ipsum ea cupiditate, adipisci et molestiae libero amet perspiciatis deleniti at
+                        quidem dolor ad excepturi eaque id!</p>
+                </div>
+                <div class="skill-box">
+                    <img class="skill-logo" src="https://cdn.cdnlogo.com/logos/m/25/mongodb.svg">
+                    <h2 class="skill-title">MongoDB</h2>
+                    <p class="skill-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos autem
+                        esse a dolores ipsum ea cupiditate, adipisci et molestiae libero amet perspiciatis deleniti at
+                        quidem dolor ad excepturi eaque id!</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Resume-->
+        <section class="summary">
+            <h1>A Summary of My Resume</h1>
+            <div class="summary-container">
+                <h2 class="education-title">My Education</h2>
+                <div class="education">
+                    <div class="summary-info">
+                        <h3>Master in Computer Science</h3>
+                        <h4>Harvard University / 2015 - 2017</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis, ipsa facere quis ipsum
+                            eveniet culpa totam et aliquid tempora expedita, alias odio animi repellat? Quisquam fuga
+                            dolorum excepturi illum?</p>
+                    </div>
+                    <div class="summary-info">
+                        <h3>Master in Computer Science</h3>
+                        <h4>Harvard University / 2015 - 2017</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis, ipsa facere quis ipsum
+                            eveniet culpa totam et aliquid tempora expedita, alias odio animi repellat? Quisquam fuga
+                            dolorum excepturi illum?</p>
+                    </div>
+                    <div class="summary-info">
+                        <h3>Master in Computer Science</h3>
+                        <h4>Harvard University / 2015 - 2017</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis, ipsa facere quis ipsum
+                            eveniet culpa totam et aliquid tempora expedita, alias odio animi repellat? Quisquam fuga
+                            dolorum excepturi illum?</p>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h2 class="experience-title">My Experience</h2>
+                    <div class="summary-info">
+                        <h3>Sr. Front End Developer</h3>
+                        <h4>Apple Inc. / 2015 - present</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis, ipsa facere quis ipsum
+                            eveniet culpa totam et aliquid tempora expedita, alias odio animi repellat? Quisquam fuga
+                            dolorum excepturi illum?</p>
+                    </div>
+                    <div class="summary-info">
+                        <h3>Sr. Front End Developer</h3>
+                        <h4>Google Inc. / 2015 - present</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis, ipsa facere quis ipsum
+                            eveniet culpa totam et aliquid tempora expedita, alias odio animi repellat? Quisquam fuga
+                            dolorum excepturi illum?</p>
+                    </div>
+                    <div class="summary-info">
+                        <h3>Jr. Front End Developer</h3>
+                        <h4>Microsoft Inc. / 2015 - present</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis, ipsa facere quis ipsum
+                            eveniet culpa totam et aliquid tempora expedita, alias odio animi repellat? Quisquam fuga
+                            dolorum excepturi illum?</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
 </body>
 
 </html>
