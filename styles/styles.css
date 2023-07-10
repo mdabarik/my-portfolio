@@ -189,8 +189,52 @@ main {
     color: grey;
 }
 
-.summary > h1 {
+/* Resume Section */
+
+.resume {
+    max-width: 75%;
+    margin: 50px auto;
+}
+
+.resume h1 {
     text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+.summary-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.education > h2, .experience > h2 {
+    font-weight: 600;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.summary-info h3{
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.summary-info p {
+    color: grey;
+}
+
+.summary-info h4 {
+    color: grey;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+hr {
+    margin: 20px 20px 20px 0;
+}
+
+.resume-btn {
+    display: block;
+    margin: 30px auto;
 }
