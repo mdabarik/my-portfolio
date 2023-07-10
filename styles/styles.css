@@ -238,3 +238,69 @@ hr {
     display: block;
     margin: 30px auto;
 }
+
+/* footer section */
+footer {
+    background-color: #FFF8F3;
+    padding: 50px 0;
+}
+
+a > i {
+    color: #FD6E0A;
+    margin-right: 20px;
+}
+
+a > i:hover {
+    color: #d35d08;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-us input {
+    display: block; 
+}
+
+.social-media {
+    width: 50%;
+    margin: 0;
+}
+
+.social-media h2, .message-us h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    padding-right: 30px;
+}
+
+.social-media p {
+    color: grey;
+}
+
+.link {
+    margin-top: 20px
+}
+
+.message-us {
+    width: 50%;
+}
+
+input, textarea {
+    padding: 15px;
+    background-color: white;
+    border: none;
+    width: 100%;
+    margin: 10px auto;
+    outline: none;
+    color: grey;
+    font-size: 16px;
+    box-shadow: 10px 10px 100px rgb(210, 205, 205);
+    border-radius: 5px;
+}
+
